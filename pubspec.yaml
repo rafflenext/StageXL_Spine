@@ -5,7 +5,9 @@ description: The Spine runtime for the StageXL library.
 homepage: https://github.com/bp74/StageXL_Spine
 
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  #sdk: '>=2.0.0 <3.0.0'
+  stagexl:
+    git: https://github.com/rafflenext/StageXL.git
 
 dependencies:
   stagexl: '>=1.4.0 <2.0.0'
